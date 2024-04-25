@@ -1,28 +1,11 @@
 #!/bin/bash
 
-# Shell Script for simple calculator
+# Define the numbers
+num1=5
+num2=10
 
-echo "Enter the first number:"
-read a
+# Perform addition
+sum=$((num1 + num2))
 
-echo "Enter the second number:"
-read b
-
-sum=$((a + b))
-echo "sum = $sum"
-
-difference=$((a - b))
-echo "difference = $difference"
-
-multiplication=$((a * b))
-echo "multiplication = $multiplication"
-
-division=$((a / b))
-echo "division = $division"
-
-modulo=$((a % b))
-echo "modulus = $modulo"
-
-exponentiation=$((2**10))
-echo "exponentiation = $exponentiation"
-
+# Display the result
+echo "The sum of $num1 and $num2 is: $sum"
